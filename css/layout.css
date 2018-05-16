@@ -1,80 +1,102 @@
 body {
 	background: #666666;
 	font: 100% Verdana, Arial, Helvetica, sans-serif;
-	color: #FFFFFF;
+	text-decoration-color: #FFFFFF;
 	margin: 0px;
 	padding: 0px;
 }
+
 #container {
 	background: #FFFFFF;
 	margin: 10px auto;
 	width: 770px;
-	border: 1px solid #000000;
-	color: #666666;
+	border: 2px solid #000000;
+	color: #ffffff;
+	
 }
-header {
+header{
 	background-image:url('../images/banner_bg.jpg'); 
-background-repeat:no-repeat;
+	background-repeat:no-repeat;
 	height:110px;
 }
-nav {
-	border-bottom: 1px solid #000000;
+#twocolumns {
+	display: table;
 }
-nav ul {
-	background: #315338;
-	margin: 0px;
-	padding: 0px;
+nav{
+	display: table-cell;
+	width:25%;
+	background-color: #9433cc;
+	border-bottom:1px solid #000000;
+
 }
-nav ul li {
-	display: inline;
-	margin: 0px;
-	padding: 0px;
+nav ul{
+background:#53314a13;
+margin:0px;
+padding:0px;
 }
-nav ul li a {
-	color: #FFFFFF;
-background: #3333CC;
-text-decoration: none;
-	padding: 0px 25px;
-	border-right: 1px solid #000000;
+nav ul li{
+	list-style-type:none;
+}
+nav ul li a{
+	display: block;
+	color:#FFFFFF;
+	background:#9433cc31;
+	text-decoration:none;
+	padding:10px 25px; 
+	border-right:2px solid #000000;
 }
 nav ul li a:hover {
-	background: #990000;
-}
-article p {
-	font-size: 80%;
-	margin: 20px;
-}
-article h1 {
-	font-size: 130%;
-	color: #003366;
-	margin: 20px;
-	padding: 0px;
-}
-article h2 {
-	font-size: 110%;
-	color: #003366;
-	margin: 20px;
-	padding: 0px;
+	background: #9900850c;
 }
 article {
+	display: table-cell;
+	width:75%;
+	background:rgb(83, 30, 107);
+}
+article p{
+	font-size:110%;
+	margin:20px;
+	text-decoration-color:#FFFFFF;
+}
+article h1{
+	font-size:130%;
+	color:#FFFFFF;
+	margin:20px;
+	padding:0px;
+}
+article h2{
+	font-size:110%;
+	color:#FFFFFF;
+	margin:20px;
+	padding:0px;
+}
+.leftimage{
+	float:left;
+	margin-right:10px;
+	border: 1px solid #000000;
+	margin-left: 10px;
+}
+footer{
+
+	color:#FFFFFF;
+	background:#8c0d97ee;
+	border-top:1px solid #000000;
+}
+footer p{
+	font-size:70%;
+	margin:0px;
 	padding:10px;
+	text-align:center;
 }
-.leftimage {
-	float: left;
-	margin-right: 10px;
+.rightimage{
+	float:right;
+	margin-right:10px;
 	border: 1px solid #000000;
+	margin-top: 10px;
 }
-.rightimage {
-	float: right;
-	margin-left: 15px;
-	border: 1px solid #000000;
+article h3{
+	font-size:100%;
+	color:#FFFFFF;
+	margin:20px;
+	padding:0px;
 }
-hr {
-    clear: both;
-}
-footer { 
-    color: #FFFFFF; 
-    background: #315338; 
-    border-top: 1px solid #000000;
-    }
-    
