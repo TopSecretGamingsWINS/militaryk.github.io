@@ -69,6 +69,7 @@ article h2{
 	color:#FFFFFF;
 	margin:20px;
 	padding:0px;
+	float: left;
 }
 .leftimage{
 	float:left;
@@ -99,4 +100,39 @@ article h3{
 	color:#FFFFFF;
 	margin:20px;
 	padding:0px;
+}
+.lol{
+	float:right;
+	border: 1px solid #000000;
+	width: 520px;
+}
+.loloy{
+	float:right;
+	border: 1px solid #000000;
+	width: 520px;
+	margin-left: 10px;
+}
+.rightimage2{
+	float:right;
+	margin-right:10px;
+	border: 1px solid #000000;
+	margin-top: 10px;
+	width: 250px;
+	margin-bottom:10px;
+}
+.leftimage2{
+	float:left;
+	margin-right:10px;
+	border: 1px solid #000000;
+	margin-left: 10px;
+	width: 250px;
+	margin-bottom:10px;
+}
+.rightimage3{
+	float:right;
+	margin-right:10px;
+	border: 1px solid #000000;
+	margin-top: 60px;
+	width: 250px;
+	margin-bottom:10px;
 }
