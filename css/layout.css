@@ -70,12 +70,14 @@ article h2{
 	margin:20px;
 	padding:0px;
 	float: left;
+	margin-right: 300px;
 }
 .leftimage{
 	float:left;
 	margin-right:10px;
 	border: 1px solid #000000;
 	margin-left: 10px;
+	margin-bottom: 10px;
 }
 footer{
 
@@ -94,6 +96,7 @@ footer p{
 	margin-right:10px;
 	border: 1px solid #000000;
 	margin-top: 10px;
+	margin-bottom: 10px;
 }
 article h3{
 	font-size:100%;
@@ -111,28 +114,31 @@ article h3{
 	border: 1px solid #000000;
 	width: 520px;
 	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
 }
 .rightimage2{
 	float:right;
 	margin-right:10px;
 	border: 1px solid #000000;
 	margin-top: 10px;
-	width: 250px;
-	margin-bottom:10px;
+	width: 260px;
+	margin-bottom: 10px;
 }
 .leftimage2{
 	float:left;
 	margin-right:10px;
 	border: 1px solid #000000;
-	margin-left: 10px;
+	margin-left: 25px;
 	width: 250px;
 	margin-bottom:10px;
+	
 }
 .rightimage3{
 	float:right;
 	margin-right:10px;
 	border: 1px solid #000000;
 	margin-top: 60px;
-	width: 250px;
+	width: 150px;
 	margin-bottom:10px;
 }
