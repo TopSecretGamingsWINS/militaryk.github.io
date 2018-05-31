@@ -27,6 +27,8 @@ nav{
 	width:25%;
 	background-color: #9433cc;
 	border-bottom:1px solid #000000;
+	border-right:1px solid #000000;
+	width: 100px;
 
 }
 nav ul{
@@ -43,7 +45,6 @@ nav ul li a{
 	background:#9433cc31;
 	text-decoration:none;
 	padding:10px 25px; 
-	border-right:2px solid #000000;
 }
 nav ul li a:hover {
 	background: #9900850c;
